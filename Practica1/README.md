@@ -11,4 +11,8 @@ Una vez instalado el sistema operativo clonamos la maquina. Ahora hay que config
  Ahora en cada maquina modificamos el archivo */etc/network/interfaces* de la siguiente manera
  ![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica1/INTERFAZ.png) 
  En la otra maquina lo haremos de la misma manera el único detalle es que tendremos que cambiar la ip (por ejemplo poner 192.168.1.101)
+
+ ##Prueba Curl
+Probamos con Curl que efectivamente el servidor hhtp esta funcionando en una de las maquinas. Al ser clonada podemos deducir que funciona en ambas.
+![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica1/curl.png)
  
