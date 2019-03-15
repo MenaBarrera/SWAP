@@ -9,5 +9,6 @@ Una vez instalado el sistema operativo clonamos la maquina. Ahora hay que config
 ![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica1/red1.png)
 
  Ahora en cada maquina modificamos el archivo */etc/network/interfaces* de la siguiente manera
- ![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica1/INTERFAZ.png)
+ ![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica1/INTERFAZ.png) 
+ En la otra maquina lo haremos de la misma manera el único detalle es que tendremos que cambiar la ip (por ejemplo poner 192.168.1.101)
  
