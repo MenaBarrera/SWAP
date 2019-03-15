@@ -6,7 +6,7 @@ Una vez instalado el sistema, comprobamos si los servicios se han levantado comp
 
 ## Configuración de la interfaz
 Una vez instalado el sistema operativo clonamos la maquina. Ahora hay que configurar una red local entre ambas maquinas virtuales. Para ello con las maquinas apagadas accedemos a su configuración y en el apartado de red, creamos un nuevo adaptador de red de tipo red interna.
-![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica1/red.png)
+![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica1/red1.png)
 
  Ahora en cada maquina modificamos
  
