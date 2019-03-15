@@ -6,19 +6,19 @@ Una vez instalado el sistema, comprobamos si los servicios se han levantado comp
 
 ## Configuración de la interfaz
 Una vez instalado el sistema operativo clonamos la maquina. Ahora hay que configurar una red local entre ambas maquinas virtuales. Para ello con las maquinas apagadas accedemos a su configuración y en el apartado de red, creamos un nuevo adaptador de red de tipo red interna.
-![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica1/red1.png)
+![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica1/img/red1.png)
 
  Ahora en cada maquina modificamos el archivo */etc/network/interfaces* de la siguiente manera
- ![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica1/INTERFAZ.png) 
+ ![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica1/img/INTERFAZ.png) 
  En la otra maquina lo haremos de la misma manera el único detalle es que tendremos que cambiar la ip (por ejemplo poner 192.168.1.101)
 
  ## Prueba Curl
 Probamos con Curl que efectivamente el servidor hhtp esta funcionando en una de las maquinas. Al ser clonada podemos deducir que funciona en ambas.
-![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica1/curl.png)
+![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica1/img/curl.png)
 
 ## Prueba SSH en ambas maquinas
 Probamos en ambas máquinas el ssh tal y como podemos ver en las capturas
-![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica1/M1.png)
-![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica1/M2.png)
+![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica1/img/M1.png)
+![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica1/img/M2.png)
 
  
