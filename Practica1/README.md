@@ -15,4 +15,10 @@ Una vez instalado el sistema operativo clonamos la maquina. Ahora hay que config
  ##Prueba Curl
 Probamos con Curl que efectivamente el servidor hhtp esta funcionando en una de las maquinas. Al ser clonada podemos deducir que funciona en ambas.
 ![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica1/curl.png)
+
+##Prueba SSH en ambas maquinas
+Probamos en ambas máquinas el ssh tal y como podemos ver en las capturas
+![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica1/M1.png)
+![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica1/M2.png)
+
  
