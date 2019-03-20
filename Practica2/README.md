@@ -17,3 +17,7 @@ Para el acceso sin contraseña haremos uso del comando `ssh-keygen`. Se basa en 
 ![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica2/img/key.png)
 ![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica2/img/copykey.png)
 
+Ahora vamos a comprobar si podemos acceder por ssh a la maquina en producción sin tener que introducir nada.
+
+![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica2/img/ssh.png)
+
