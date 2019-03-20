@@ -1,5 +1,5 @@
-#Clonar información de un sitio web
-##Primeros pasos
+#Clonar información de un sitio web##
+#Primeros pasos#
 Para empezar debemos ver si tenemos instalado rsync, para ello es tan facil como ejecutar en la terminal el comando `sudo apt-get install rsync`. Tras esto tenemos dos opciones: 
 1 - Esta instalado y lo unico que hace ubuntu es decirnos que se han actualizado 0 paquetes
 2 - No esta instalado y lo instala preguntandonos si queremos que se haga uso de X MB en disco
