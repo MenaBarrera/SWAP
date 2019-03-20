@@ -21,3 +21,7 @@ Ahora vamos a comprobar si podemos acceder por ssh a la maquina en producción s
 
 ![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica2/img/ssh.png)
 
+## Archivo contrab
+Como es interesante que se haga este clonado de archivos de forma automática, añadiremos al archivo crontab una linea para que se ejecute rsync cada hora. Para ello bastaria con añadir la ultima linea del archivo que se muestra en la siguiente imagen 
+
+![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica2/img/crontab.png)
