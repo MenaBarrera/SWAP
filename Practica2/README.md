@@ -9,4 +9,11 @@ El siguiente paso es crear en la carpeta **/var/www/html/** uno o varios archivo
 ## clonando archivos con rsync
 Vamos a clonar archivos de la maquina en producción a la maquina que tenemos de backup. Para ello utilizaremos el comando `rsync -avz -e ssh ip_servidor_producción:/var/www/ /var/www/`
 ![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica2/img/img1.png)
+Tal y como podemos ver en la imagen se reciben los archivos index.php e index.html. Archivos que solo existian en la maquina en producción.
+
+## Acceso sin contraseña por ssh
+Para el acceso sin contraseña haremos uso del comando `ssh-keygen`. Se basa en la filosofia de llave publica-privada. Generas un par de llaves, subes al servidor en producción la correspondiente, y con eso ya es suficiente para poder autenticarte sin tener que introducir ninguna password. A continuación podemos ver en las capturas de pantalla como se ha generado la clave (captura 1) y como se ha subido al servidor en produccion (captura 2)
+
+![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica2/img/key.png)
+![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica2/img/copykey.png)
 
