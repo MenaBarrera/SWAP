@@ -7,3 +7,5 @@ Para empezar debemos ver si tenemos instalado rsync, para ello es tan facil como
 El siguiente paso es crear en la carpeta **/var/www/html/** uno o varios archivos en la maquina que actua de servidor en producción y decirle a la carpeta que su dueño es el usuario del servidor con `chown mamb:mamb /var/www/html/ `
 
 ## clonando archivos con rsync
+Vamos a clonar archivos de la maquina en producción a la maquina que tenemos de backup. Para ello utilizaremos el comando `rsync -avz -e ssh ip_servidor_producción:/var/www/ /var/www/`
+
