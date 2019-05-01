@@ -8,3 +8,14 @@ De esta forma conseguiremos una infraestructura redundante y de alta disponibili
 La primera herramienta que vamos a ultilizar para el balanceo de carga será Nginx. Debemos indicarle a Nginx que ips son los servidores que tiene que balancear
 
 ![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica3/img/1.png)
+
+Con esta configuración hemos balanceado mediante Round-Robin ya que le hemos dado el mismo peso a ambas maquinas.
+Para comprobar el funcionamiento vamos a lanzar peticiones al balanceador.
+
+![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica3/img/2.png)
+
+Como se puede ver cada vez responde una maquina distinta, para hacerlo mas grafico lo vamos a comprobar con la herramienta htop.
+
+![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica3/img/3.png)
+
+Como podemos ver el % de cpu de las maquinas 1 y 2 son relativamente parecidos (y bajos cosa que al hacer la practica no ocurría :/ )
