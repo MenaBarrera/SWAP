@@ -19,3 +19,13 @@ Como se puede ver cada vez responde una maquina distinta, para hacerlo mas grafi
 ![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica3/img/3.png)
 
 Como podemos ver el % de cpu de las maquinas 1 y 2 son relativamente parecidos (y bajos cosa que al hacer la practica no ocurría :/ )
+
+# Balanceo con Haproxy
+Para configurar Haproxy como balanceador tenemos que modificar algunos parametros de configuracion de Haproxy. Para ello modificamos el archivo ` /etc/haproxy/haproxy.cfg ` Usando como configuración la siguiente.
+
+![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica3/img/5.png)
+
+Ahora vamos a comprobar como antes con htop que se realiza balanceo tal y como lo hicimos anteriormente. Con la herramienta htop
+
+
+![img](https://github.com/MenaBarrera/SWAP/blob/master/Practica3/img/6.png)
